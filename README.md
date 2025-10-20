@@ -53,12 +53,7 @@ BBChartInfo is a lightweight NinjaTrader 8 indicator that displays essential cha
    - Select the downloaded `.zip` file
    - Click `Import`
 
-3. **Compile:**
-   - Go to `Tools` → `NinjaScript Editor` (or press F3)
-   - Click `Compile` (or press F5)
-   - Verify no errors in the output window
-
-4. **Add to Chart:**
+3. **Add to Chart:**
    - Right-click on any chart
    - Select `Indicators...`
    - Find "BBChartInfo" in the list
@@ -156,28 +151,10 @@ Date: 10/19/2025
 
 ---
 
-## Troubleshooting
-
-### Overlay Not Appearing
-
-1. **Check Output Window** (F5 in NinjaScript Editor)
-   - Look for `[BBChartInfo]` debug messages
-   - Verify no errors during State.SetDefaults or State.DataLoaded
-
-2. **Verify Settings:**
-   - Ensure opacity is not set to 0%
-   - Check that text color contrasts with chart background
-   - Try resetting to default corner position
-
-3. **Recompile:**
-   - Open NinjaScript Editor (F3)
-   - Click Compile (F5)
-   - Remove and re-add indicator to chart
 
 ### Licensing Issues
 
 If you see a licensing dialog:
-- Verify you have a valid license for Product ID 403
 - Check your NinjaTrader account at Tools → License Management
 - Contact support@badbuddhacustoms.com for assistance
 
@@ -220,7 +197,6 @@ BBChartInfo uses efficient SharpDX rendering and should have minimal performance
 This software uses NinjaTrader's user-based vendor licensing system (8.1.6+). A valid BadBuddha Customs license is required for use.
 
 **Vendor:** BadBuddhaCustoms
-**Product ID:** 403
 **Product Name:** BBChartInfo
 
 ---
@@ -232,23 +208,5 @@ This software uses NinjaTrader's user-based vendor licensing system (8.1.6+). A 
 - **Type:** Indicator (overlay)
 - **Rendering:** SharpDX Direct2D
 - **Update Service:** BadBuddha shared update service
-
-### File Structure
-```
-ChartInfo/
-├── Source/
-│   └── ChartInfo.cs
-├── Documentation/
-│   ├── README.md
-│   └── website-description.md
-└── chartinfo_version.json
-```
-
-### Dependencies
-- NinjaTrader.BadBuddhaCustoms.BadBuddhaUpdates
-- SharpDX.Direct2D1
-- SharpDX.DirectWrite
-
----
 
 **© 2025 BadBuddha Customs. All rights reserved.**
