@@ -1,0 +1,15 @@
+{
+  "productName": "Chart Info Overlay",
+  "latestVersion": "v1.0.0.0",
+  "releaseDate": "2025-10-19",
+  "downloadUrl": "https://github.com/badbuddhatrades/ChartInfo/releases/latest",
+  "changelog": [
+    {
+      "version": "v1.0.0.0",
+      "date": "2025-10-19",
+      "changes": [
+        "Initial release of Chart Info Overlay"
+      ]
+    }
+  ]
+}
