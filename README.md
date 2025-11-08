@@ -41,7 +41,7 @@ BBChartInfo is a lightweight NinjaTrader 8 indicator that displays essential cha
 ### Requirements
 - NinjaTrader 8 (8.1.6 or higher recommended)
 - Windows 10 or later
-- Valid BadBuddha Customs license (Product ID: 403)
+- Valid BadBuddha Customs license
 
 ### Steps
 
@@ -184,8 +184,7 @@ BBChartInfo uses efficient SharpDX rendering and should have minimal performance
 - Website: [https://badbuddhacustoms.com](https://badbuddhacustoms.com)
 
 ### Contact
-- Email: info@badbuddhacustoms.com
-- For licensing issues: support@badbuddhacustoms.com
+- Email: support@badbuddhacustoms.com
 
 ### Updates
 - Update manifest: [chartinfo_version.json](https://raw.githubusercontent.com/badbuddhatrades/ChartInfo/main/chartinfo_version.json)
